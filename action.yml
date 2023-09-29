@@ -1,0 +1,7 @@
+name: action
+description: Demonstrate bug
+runs:
+  using: composite
+  steps:
+    - run: echo test
+      shell: bash
